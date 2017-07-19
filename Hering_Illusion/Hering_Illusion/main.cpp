@@ -23,7 +23,7 @@ void display(void){
     glColor3f(1.0, 0.0, 0.0);
     for(int i=139; i<260; i += 120){
         //this inner loop is to make the red line thicker;
-        //because the red line in the book is thicker than others;
+        //because the red line in the book is thicker than other lines;
         for(int j=-1; j<=1; j++){
             glVertex2i(0, i+j);
             glVertex2i(800, i+j);
