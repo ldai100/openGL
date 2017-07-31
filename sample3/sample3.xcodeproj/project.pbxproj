@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A9B67B61F1FE05F00B55A2F /* Pyramid_Illusion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A9B67B51F1FE05F00B55A2F /* Pyramid_Illusion.cpp */; };
-		0A9B67BE1F1FE06B00B55A2F /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9B67BD1F1FE06B00B55A2F /* OpenGL.framework */; };
-		0A9B67C01F1FE07000B55A2F /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9B67BF1F1FE07000B55A2F /* GLUT.framework */; };
+		0AFC17A91F2FAF36001E85B9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC17A81F2FAF36001E85B9 /* main.cpp */; };
+		0AFC17B11F2FAF40001E85B9 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFC17B01F2FAF40001E85B9 /* OpenGL.framework */; };
+		0AFC17B31F2FAF46001E85B9 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFC17B21F2FAF46001E85B9 /* GLUT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		0A9B67B01F1FE05F00B55A2F /* CopyFiles */ = {
+		0AFC17A31F2FAF36001E85B9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,55 +25,55 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0A9B67B21F1FE05F00B55A2F /* Pyramid_illusion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Pyramid_illusion; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A9B67B51F1FE05F00B55A2F /* Pyramid_Illusion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pyramid_Illusion.cpp; sourceTree = "<group>"; };
-		0A9B67BD1F1FE06B00B55A2F /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		0A9B67BF1F1FE07000B55A2F /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		0AFC17A51F2FAF36001E85B9 /* sample3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sample3; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AFC17A81F2FAF36001E85B9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0AFC17B01F2FAF40001E85B9 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		0AFC17B21F2FAF46001E85B9 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0A9B67AF1F1FE05F00B55A2F /* Frameworks */ = {
+		0AFC17A21F2FAF36001E85B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A9B67C01F1FE07000B55A2F /* GLUT.framework in Frameworks */,
-				0A9B67BE1F1FE06B00B55A2F /* OpenGL.framework in Frameworks */,
+				0AFC17B31F2FAF46001E85B9 /* GLUT.framework in Frameworks */,
+				0AFC17B11F2FAF40001E85B9 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A9B67A91F1FE05F00B55A2F = {
+		0AFC179C1F2FAF36001E85B9 = {
 			isa = PBXGroup;
 			children = (
-				0A9B67B41F1FE05F00B55A2F /* Pyramid_illusion */,
-				0A9B67B31F1FE05F00B55A2F /* Products */,
-				0A9B67BC1F1FE06B00B55A2F /* Frameworks */,
+				0AFC17A71F2FAF36001E85B9 /* sample3 */,
+				0AFC17A61F2FAF36001E85B9 /* Products */,
+				0AFC17AF1F2FAF40001E85B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		0A9B67B31F1FE05F00B55A2F /* Products */ = {
+		0AFC17A61F2FAF36001E85B9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0A9B67B21F1FE05F00B55A2F /* Pyramid_illusion */,
+				0AFC17A51F2FAF36001E85B9 /* sample3 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0A9B67B41F1FE05F00B55A2F /* Pyramid_illusion */ = {
+		0AFC17A71F2FAF36001E85B9 /* sample3 */ = {
 			isa = PBXGroup;
 			children = (
-				0A9B67B51F1FE05F00B55A2F /* Pyramid_Illusion.cpp */,
+				0AFC17A81F2FAF36001E85B9 /* main.cpp */,
 			);
-			path = Pyramid_illusion;
+			path = sample3;
 			sourceTree = "<group>";
 		};
-		0A9B67BC1F1FE06B00B55A2F /* Frameworks */ = {
+		0AFC17AF1F2FAF40001E85B9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0A9B67BF1F1FE07000B55A2F /* GLUT.framework */,
-				0A9B67BD1F1FE06B00B55A2F /* OpenGL.framework */,
+				0AFC17B21F2FAF46001E85B9 /* GLUT.framework */,
+				0AFC17B01F2FAF40001E85B9 /* OpenGL.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -81,69 +81,69 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0A9B67B11F1FE05F00B55A2F /* Pyramid_illusion */ = {
+		0AFC17A41F2FAF36001E85B9 /* sample3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A9B67B91F1FE05F00B55A2F /* Build configuration list for PBXNativeTarget "Pyramid_illusion" */;
+			buildConfigurationList = 0AFC17AC1F2FAF36001E85B9 /* Build configuration list for PBXNativeTarget "sample3" */;
 			buildPhases = (
-				0A9B67AE1F1FE05F00B55A2F /* Sources */,
-				0A9B67AF1F1FE05F00B55A2F /* Frameworks */,
-				0A9B67B01F1FE05F00B55A2F /* CopyFiles */,
+				0AFC17A11F2FAF36001E85B9 /* Sources */,
+				0AFC17A21F2FAF36001E85B9 /* Frameworks */,
+				0AFC17A31F2FAF36001E85B9 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Pyramid_illusion;
-			productName = Pyramid_illusion;
-			productReference = 0A9B67B21F1FE05F00B55A2F /* Pyramid_illusion */;
+			name = sample3;
+			productName = sample3;
+			productReference = 0AFC17A51F2FAF36001E85B9 /* sample3 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0A9B67AA1F1FE05F00B55A2F /* Project object */ = {
+		0AFC179D1F2FAF36001E85B9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Li Dai";
 				TargetAttributes = {
-					0A9B67B11F1FE05F00B55A2F = {
+					0AFC17A41F2FAF36001E85B9 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 5Z25456MNU;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 0A9B67AD1F1FE05F00B55A2F /* Build configuration list for PBXProject "Pyramid_illusion" */;
+			buildConfigurationList = 0AFC17A01F2FAF36001E85B9 /* Build configuration list for PBXProject "sample3" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 0A9B67A91F1FE05F00B55A2F;
-			productRefGroup = 0A9B67B31F1FE05F00B55A2F /* Products */;
+			mainGroup = 0AFC179C1F2FAF36001E85B9;
+			productRefGroup = 0AFC17A61F2FAF36001E85B9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0A9B67B11F1FE05F00B55A2F /* Pyramid_illusion */,
+				0AFC17A41F2FAF36001E85B9 /* sample3 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0A9B67AE1F1FE05F00B55A2F /* Sources */ = {
+		0AFC17A11F2FAF36001E85B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A9B67B61F1FE05F00B55A2F /* Pyramid_Illusion.cpp in Sources */,
+				0AFC17A91F2FAF36001E85B9 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0A9B67B71F1FE05F00B55A2F /* Debug */ = {
+		0AFC17AA1F2FAF36001E85B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -191,7 +191,7 @@
 			};
 			name = Debug;
 		};
-		0A9B67B81F1FE05F00B55A2F /* Release */ = {
+		0AFC17AB1F2FAF36001E85B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -232,7 +232,7 @@
 			};
 			name = Release;
 		};
-		0A9B67BA1F1FE05F00B55A2F /* Debug */ = {
+		0AFC17AD1F2FAF36001E85B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 5Z25456MNU;
@@ -240,7 +240,7 @@
 			};
 			name = Debug;
 		};
-		0A9B67BB1F1FE05F00B55A2F /* Release */ = {
+		0AFC17AE1F2FAF36001E85B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 5Z25456MNU;
@@ -251,25 +251,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A9B67AD1F1FE05F00B55A2F /* Build configuration list for PBXProject "Pyramid_illusion" */ = {
+		0AFC17A01F2FAF36001E85B9 /* Build configuration list for PBXProject "sample3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0A9B67B71F1FE05F00B55A2F /* Debug */,
-				0A9B67B81F1FE05F00B55A2F /* Release */,
+				0AFC17AA1F2FAF36001E85B9 /* Debug */,
+				0AFC17AB1F2FAF36001E85B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0A9B67B91F1FE05F00B55A2F /* Build configuration list for PBXNativeTarget "Pyramid_illusion" */ = {
+		0AFC17AC1F2FAF36001E85B9 /* Build configuration list for PBXNativeTarget "sample3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0A9B67BA1F1FE05F00B55A2F /* Debug */,
-				0A9B67BB1F1FE05F00B55A2F /* Release */,
+				0AFC17AD1F2FAF36001E85B9 /* Debug */,
+				0AFC17AE1F2FAF36001E85B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0A9B67AA1F1FE05F00B55A2F /* Project object */;
+	rootObject = 0AFC179D1F2FAF36001E85B9 /* Project object */;
 }
