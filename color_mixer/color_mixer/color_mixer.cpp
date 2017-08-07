@@ -17,8 +17,8 @@ GLint Xbox = width/2 + 50, Ybox = height/2;
 GLfloat XGradient = width/2, YGradient = height/6;
 GLfloat currentR = 0, currentG = 0, currentB = 0;
 bool onR, onG, onB, onGradient;
-bool inRangeR, inRangeG, inRangeB;
 bool onRy, onGy, onBy;
+bool outBoundR, outBoundG, outBoundB;
 GLint offset, newY;
 
 struct edge{
@@ -148,6 +148,7 @@ void checkposition(int mouseX, int mouseY){
 
 void mouse(int button, int state, int x, int y){
     bool leftClick = button == GLUT_LEFT_BUTTON;
+    bool clickDown = state == GLUT_DOWN;
     if(onR && leftClick){
         myV[0].tabR = 0.5;
         offset = height - 1 - myV[0].tabY - y;
@@ -160,17 +161,17 @@ void mouse(int button, int state, int x, int y){
         myV[2].tabB = 0.5;
         offset = height - 1 - myV[2].tabY - y;
     }
-    else if(onRy && leftClick){
+    else if(onRy && leftClick && clickDown){
         myV[0].tabR = 0.5;
         myV[0].tabY = height - 1 - y;
         offset = 0;
     }
-    else if(onGy && leftClick){
+    else if(onGy && leftClick && clickDown){
         myV[1].tabG = 0.5;
         myV[1].tabY = height - 1 - y;
         offset = 0;
     }
-    else if(onBy && leftClick){
+    else if(onBy && leftClick && clickDown){
         myV[2].tabB = 0.5;
         myV[2].tabY = height - 1 - y;
         offset = 0;
@@ -193,9 +194,20 @@ void mouse(int button, int state, int x, int y){
     glutPostRedisplay();
 }
 
+void checkDisEngage(int x, int y){  //this is to see if cursor is too far away;
+    outBoundR = x >= (myV[0].tabX + 50) || x <= (myV[0].tabX - 50);
+    outBoundG = x >= (myV[1].tabX + 50) || x <= (myV[1].tabX - 50);
+    outBoundB = x >= (myV[2].tabX + 50) || x <= (myV[2].tabX - 50);
+}
+
 void motion(int x, int y){
+    checkDisEngage(x, y);
     newY = y + offset;  //this line solves the tab jumping issue.  :)
     if(onR){
+            if(outBoundR){
+                onR = false;
+                myV[0].tabR = 1;
+            }
             if(newY < height - 1 - myV[0].bottomY - 300) myV[0].tabY = myV[0].bottomY+300;
             else if(newY >= height - 1 - myV[0].bottomY) myV[0].tabY = myV[0].bottomY;
             else  myV[0].tabY = height - 1 - y - offset;
@@ -203,6 +215,10 @@ void motion(int x, int y){
             currentR = (myV[0].tabY - myV[0].bottomY)/(300);
     }
     else if(onG){
+            if(outBoundG){
+                onG = false;
+                myV[1].tabG = 1;
+            }
             if(newY < height - 1 - myV[0].bottomY - 300) myV[1].tabY = myV[1].bottomY+300;
             else if(newY >= height - 1 - myV[0].bottomY) myV[1].tabY = myV[1].bottomY;
             else  myV[1].tabY = height - 1 - y - offset;
@@ -210,6 +226,10 @@ void motion(int x, int y){
             currentG = (myV[1].tabY - myV[1].bottomY)/(300);
     }
     else if(onB){
+            if(outBoundB){
+                onB = false;
+                myV[2].tabB = 1;
+            }
             if(newY < height - 1 - myV[0].bottomY - 300) myV[2].tabY = myV[2].bottomY+300;
             else if(newY >= height - 1 - myV[0].bottomY) myV[2].tabY = myV[2].bottomY;
             else  myV[2].tabY = height - 1 - y - offset;
