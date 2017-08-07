@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A9B67861F1EB97D00B55A2F /* Hermann_Grid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A9B67851F1EB97D00B55A2F /* Hermann_Grid.cpp */; };
-		0A9B678E1F1EDF3500B55A2F /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9B678D1F1EDF3500B55A2F /* OpenGL.framework */; };
-		0A9B67901F1EDF3A00B55A2F /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9B678F1F1EDF3A00B55A2F /* GLUT.framework */; };
+		0AFC17C11F2FB4A6001E85B9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC17C01F2FB4A6001E85B9 /* main.cpp */; };
+		0AFC17C91F2FB4AE001E85B9 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFC17C81F2FB4AE001E85B9 /* GLUT.framework */; };
+		0AFC17CB1F2FB4B4001E85B9 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFC17CA1F2FB4B4001E85B9 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		0A9B67801F1EB97D00B55A2F /* CopyFiles */ = {
+		0AFC17BB1F2FB4A6001E85B9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,55 +25,55 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0A9B67821F1EB97D00B55A2F /* Hermann_Grid */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Hermann_Grid; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A9B67851F1EB97D00B55A2F /* Hermann_Grid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Hermann_Grid.cpp; sourceTree = "<group>"; };
-		0A9B678D1F1EDF3500B55A2F /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		0A9B678F1F1EDF3A00B55A2F /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		0AFC17BD1F2FB4A6001E85B9 /* sample4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sample4; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AFC17C01F2FB4A6001E85B9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0AFC17C81F2FB4AE001E85B9 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		0AFC17CA1F2FB4B4001E85B9 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0A9B677F1F1EB97D00B55A2F /* Frameworks */ = {
+		0AFC17BA1F2FB4A6001E85B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A9B67901F1EDF3A00B55A2F /* GLUT.framework in Frameworks */,
-				0A9B678E1F1EDF3500B55A2F /* OpenGL.framework in Frameworks */,
+				0AFC17CB1F2FB4B4001E85B9 /* OpenGL.framework in Frameworks */,
+				0AFC17C91F2FB4AE001E85B9 /* GLUT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A9B67791F1EB97D00B55A2F = {
+		0AFC17B41F2FB4A6001E85B9 = {
 			isa = PBXGroup;
 			children = (
-				0A9B67841F1EB97D00B55A2F /* Hermann_Grid */,
-				0A9B67831F1EB97D00B55A2F /* Products */,
-				0A9B678C1F1EDF3500B55A2F /* Frameworks */,
+				0AFC17BF1F2FB4A6001E85B9 /* sample4 */,
+				0AFC17BE1F2FB4A6001E85B9 /* Products */,
+				0AFC17C71F2FB4AE001E85B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		0A9B67831F1EB97D00B55A2F /* Products */ = {
+		0AFC17BE1F2FB4A6001E85B9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0A9B67821F1EB97D00B55A2F /* Hermann_Grid */,
+				0AFC17BD1F2FB4A6001E85B9 /* sample4 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0A9B67841F1EB97D00B55A2F /* Hermann_Grid */ = {
+		0AFC17BF1F2FB4A6001E85B9 /* sample4 */ = {
 			isa = PBXGroup;
 			children = (
-				0A9B67851F1EB97D00B55A2F /* Hermann_Grid.cpp */,
+				0AFC17C01F2FB4A6001E85B9 /* main.cpp */,
 			);
-			path = Hermann_Grid;
+			path = sample4;
 			sourceTree = "<group>";
 		};
-		0A9B678C1F1EDF3500B55A2F /* Frameworks */ = {
+		0AFC17C71F2FB4AE001E85B9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0A9B678F1F1EDF3A00B55A2F /* GLUT.framework */,
-				0A9B678D1F1EDF3500B55A2F /* OpenGL.framework */,
+				0AFC17CA1F2FB4B4001E85B9 /* OpenGL.framework */,
+				0AFC17C81F2FB4AE001E85B9 /* GLUT.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -81,69 +81,69 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0A9B67811F1EB97D00B55A2F /* Hermann_Grid */ = {
+		0AFC17BC1F2FB4A6001E85B9 /* sample4 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A9B67891F1EB97D00B55A2F /* Build configuration list for PBXNativeTarget "Hermann_Grid" */;
+			buildConfigurationList = 0AFC17C41F2FB4A6001E85B9 /* Build configuration list for PBXNativeTarget "sample4" */;
 			buildPhases = (
-				0A9B677E1F1EB97D00B55A2F /* Sources */,
-				0A9B677F1F1EB97D00B55A2F /* Frameworks */,
-				0A9B67801F1EB97D00B55A2F /* CopyFiles */,
+				0AFC17B91F2FB4A6001E85B9 /* Sources */,
+				0AFC17BA1F2FB4A6001E85B9 /* Frameworks */,
+				0AFC17BB1F2FB4A6001E85B9 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Hermann_Grid;
-			productName = Hermann_Grid;
-			productReference = 0A9B67821F1EB97D00B55A2F /* Hermann_Grid */;
+			name = sample4;
+			productName = sample4;
+			productReference = 0AFC17BD1F2FB4A6001E85B9 /* sample4 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0A9B677A1F1EB97D00B55A2F /* Project object */ = {
+		0AFC17B51F2FB4A6001E85B9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Li Dai";
 				TargetAttributes = {
-					0A9B67811F1EB97D00B55A2F = {
+					0AFC17BC1F2FB4A6001E85B9 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 5Z25456MNU;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 0A9B677D1F1EB97D00B55A2F /* Build configuration list for PBXProject "Hermann_Grid" */;
+			buildConfigurationList = 0AFC17B81F2FB4A6001E85B9 /* Build configuration list for PBXProject "sample4" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 0A9B67791F1EB97D00B55A2F;
-			productRefGroup = 0A9B67831F1EB97D00B55A2F /* Products */;
+			mainGroup = 0AFC17B41F2FB4A6001E85B9;
+			productRefGroup = 0AFC17BE1F2FB4A6001E85B9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0A9B67811F1EB97D00B55A2F /* Hermann_Grid */,
+				0AFC17BC1F2FB4A6001E85B9 /* sample4 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0A9B677E1F1EB97D00B55A2F /* Sources */ = {
+		0AFC17B91F2FB4A6001E85B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A9B67861F1EB97D00B55A2F /* Hermann_Grid.cpp in Sources */,
+				0AFC17C11F2FB4A6001E85B9 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0A9B67871F1EB97D00B55A2F /* Debug */ = {
+		0AFC17C21F2FB4A6001E85B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -191,7 +191,7 @@
 			};
 			name = Debug;
 		};
-		0A9B67881F1EB97D00B55A2F /* Release */ = {
+		0AFC17C31F2FB4A6001E85B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -232,7 +232,7 @@
 			};
 			name = Release;
 		};
-		0A9B678A1F1EB97D00B55A2F /* Debug */ = {
+		0AFC17C51F2FB4A6001E85B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 5Z25456MNU;
@@ -240,7 +240,7 @@
 			};
 			name = Debug;
 		};
-		0A9B678B1F1EB97D00B55A2F /* Release */ = {
+		0AFC17C61F2FB4A6001E85B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 5Z25456MNU;
@@ -251,25 +251,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A9B677D1F1EB97D00B55A2F /* Build configuration list for PBXProject "Hermann_Grid" */ = {
+		0AFC17B81F2FB4A6001E85B9 /* Build configuration list for PBXProject "sample4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0A9B67871F1EB97D00B55A2F /* Debug */,
-				0A9B67881F1EB97D00B55A2F /* Release */,
+				0AFC17C21F2FB4A6001E85B9 /* Debug */,
+				0AFC17C31F2FB4A6001E85B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0A9B67891F1EB97D00B55A2F /* Build configuration list for PBXNativeTarget "Hermann_Grid" */ = {
+		0AFC17C41F2FB4A6001E85B9 /* Build configuration list for PBXNativeTarget "sample4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0A9B678A1F1EB97D00B55A2F /* Debug */,
-				0A9B678B1F1EB97D00B55A2F /* Release */,
+				0AFC17C51F2FB4A6001E85B9 /* Debug */,
+				0AFC17C61F2FB4A6001E85B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0A9B677A1F1EB97D00B55A2F /* Project object */;
+	rootObject = 0AFC17B51F2FB4A6001E85B9 /* Project object */;
 }

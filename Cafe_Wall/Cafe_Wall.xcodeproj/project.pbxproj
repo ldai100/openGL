@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A9B679E1F1EE85400B55A2F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A9B679D1F1EE85400B55A2F /* main.cpp */; };
+		0A9B679E1F1EE85400B55A2F /* Cafe_Wall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A9B679D1F1EE85400B55A2F /* Cafe_Wall.cpp */; };
 		0A9B67A61F1EE85F00B55A2F /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9B67A51F1EE85F00B55A2F /* OpenGL.framework */; };
 		0A9B67A81F1EE86500B55A2F /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9B67A71F1EE86500B55A2F /* GLUT.framework */; };
 /* End PBXBuildFile section */
@@ -26,7 +26,7 @@
 
 /* Begin PBXFileReference section */
 		0A9B679A1F1EE85400B55A2F /* Cafe_Wall */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Cafe_Wall; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A9B679D1F1EE85400B55A2F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0A9B679D1F1EE85400B55A2F /* Cafe_Wall.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cafe_Wall.cpp; sourceTree = "<group>"; };
 		0A9B67A51F1EE85F00B55A2F /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		0A9B67A71F1EE86500B55A2F /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -64,7 +64,7 @@
 		0A9B679C1F1EE85400B55A2F /* Cafe_Wall */ = {
 			isa = PBXGroup;
 			children = (
-				0A9B679D1F1EE85400B55A2F /* main.cpp */,
+				0A9B679D1F1EE85400B55A2F /* Cafe_Wall.cpp */,
 			);
 			path = Cafe_Wall;
 			sourceTree = "<group>";
@@ -136,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A9B679E1F1EE85400B55A2F /* main.cpp in Sources */,
+				0A9B679E1F1EE85400B55A2F /* Cafe_Wall.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +267,7 @@
 				0A9B67A31F1EE85400B55A2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
